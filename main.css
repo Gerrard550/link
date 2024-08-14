@@ -810,3 +810,67 @@ hero p {
     font-size: var(--h6-size);
     font-weight: 700;
 }
+
+@media only screen and (max-width: 1144px) {
+  .section-container {
+    padding: 0 var(--spacing-md);
+  }
+}
+
+
+/* TABLET SIZE */
+@media only screen and (max-width: 768px){
+  body {
+    background-color: purple;
+  
+  :root {
+
+    --h1-size: 64px;
+    --h1-height: 72px;
+    --h3-size: 34px;
+    
+
+}
+  }
+
+
+/* MOBILITY SIZE */
+@media only screen and (max-width: 550px){
+  body {
+    background-color: cyan;
+  }
+
+  .partners-grid { 1fr, 1fr;
+
+  }
+
+  
+  .two-column {
+    flex-direction: column;
+  }
+
+  .two-column .col-left {
+    width: 100%;
+  }
+
+  .two-column .col-right {
+    width: 100%;
+    padding: 0;
+  }
+  
+ /* INTEGRAGTION SECTION */
+ .integration-section .col-right{
+  display: none;
+ }
+
+ /* WHY SWIPE SECTION */
+ .why-swipe-section .card-container .card {
+  width: 100%;
+}
+}
+
+html,body {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
