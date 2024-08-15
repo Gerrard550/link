@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+
+}
+
+body {
+    background-color: khaki;
+    cursor: pointer;
+}
+
+.sign-in {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 400px;
+    padding: 40px 20px;
+    margin: 10px ;
+    background-color: magenta;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.sign-in h1 {
+    font-size: 30px;
+    text-align: center;
+    text-transform: uppercase;
+    margin: 40px 0;
+
+}
+
+.sign-in p {
+    font-size: 20px;
+    margin:15px 0;
+}
+
+.sign-in input {
+   font-size: 16px;
+   padding: 15px 10px;
+   width: 100%;
+    border: 0;
+    border-radius: 5px;
+    outline: none;
+}
+
+
+.sign-in button {
+    font-size: 20px;
+    font-weight: bold;
+    margin: 20px 0;
+    padding: 10px 15px;
+    width: 50%;
+    border: 0;
+    border-radius: 10px;
+    background-color: chocolate;
+}
+
+.two-column {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 10px 0;
+    padding: 10px;
+    position: relative;
+    
+
+}
+
+.two-column h1 {
+    margin: 40px 0;
+}
+
+.two-column h2 {
+    font-size: 40px;
+    display: inline-block;
+}
+.two-column p {
+    font-size: 40px;       display: inline-block;
+    margin: 20px 0;
+    padding: 32ox;
+}
+
+.two-column input {
+    font-size: 20px;
+    width: 400px;
+    height: 50px;
+    border: 0;
+    border-radius: 20px;
+    padding-left: 20px;
+
+}
+
+.two-column ::placeholder {
+    font-size: 15px;
+}
+
+.two-column  #level {
+    font-size: 20px;
+    width: 400px;
+    height: 50px;
+    border: 0;
+    border-radius: 20px;
+
+}
+
+.submit {
+    font-size: 20px;
+    font-weight: bold;
+    width: 100px;
+    height: 50px;
+    position: absolute;
+    bottom: -40px;
+    left: 700px;
+    margin: -50px;
+}
+
+.status {
+    width: 300px;
+    height: 50px;
+}
